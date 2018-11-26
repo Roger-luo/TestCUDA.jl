@@ -25,6 +25,7 @@ function main()
             println(io, "const USE_CUDA = true")
         end
         write_to_deps("CuArrays", "3a865a2d-5b23-5a0f-bc46-62713ec82fae")
+        Pkg.resolve()
     end
 end
 
