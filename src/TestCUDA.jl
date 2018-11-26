@@ -1,7 +1,7 @@
 module TestCUDA
 
 const ext = joinpath(dirname(@__DIR__), "deps", "ext.jl")
-isfile(ext) || error("Batched.jl has not been built, please run Pkg.build(\"Batched\").")
+isfile(ext) || error("TestCUDA.jl has not been built, please run Pkg.build(\"TestCUDA\").")
 include(ext)
 
 # using Requires
