@@ -1,6 +1,8 @@
-authors = ["Roger-luo <hiroger@qq.com>"]
 name = "TestCUDA"
 uuid = "e86144fc-f1b6-11e8-22c0-5f6bb57fefc1"
+authors = ["Roger-luo <hiroger@qq.com>"]
 version = "0.1.0"
 
 [deps]
+CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
